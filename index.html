@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lumen Studio — precision hair design, tailored consultations, and elevated salon experiences.">
+  <title>Lumen Studio — Modern Hair Design</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preload" href="images/great-hairstyle.jpg" as="image">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Lumen Studio home">Lumen<span>.</span></a>
+
+      <nav class="nav-desktop" aria-label="Primary">
+        <a href="index.html" class="is-active">Home</a>
+        <a href="about.html">Studio</a>
+        <a href="hairstyle.html">Lookbook</a>
+        <a href="news.html">Journal</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-secondary">Call studio</a>
+        <a href="contact.html" class="btn btn-primary">Book visit</a>
+        <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-mobile" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav id="nav-mobile" class="nav-mobile" aria-label="Mobile" aria-hidden="true">
+      <a href="index.html">Home</a>
+      <a href="about.html">Studio</a>
+      <a href="hairstyle.html">Lookbook</a>
+      <a href="news.html">Journal</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn btn-primary" style="margin-top: 0.5rem; text-align: center;">Book visit</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero: split layout, no full-bleed dark overlay -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="hero-eyebrow">Precision hair design</p>
+          <h1 id="hero-heading">Shape your look with intention.</h1>
+          <p class="hero-lead">
+            A calm, design-led salon where every cut, color, and treatment is planned around how you live—not trends for their own sake.
+          </p>
+          <div class="hero-cta">
+            <a href="contact.html" class="btn btn-primary">Schedule consultation</a>
+            <a href="hairstyle.html" class="btn btn-secondary">View lookbook</a>
+          </div>
+          <dl class="hero-meta">
+            <div>
+              <dt>Location</dt>
+              <dd>124 Mercer St, New York</dd>
+            </div>
+            <div>
+              <dt>Hours</dt>
+              <dd>Tue–Sat · 9am–7pm</dd>
+            </div>
+            <div>
+              <dt>Response</dt>
+              <dd>Under 2 hours</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay-1">
+          <span class="hero-badge">Now booking May</span>
+          <img
+            class="hero-image-main"
+            src="images/great-hairstyle.jpg"
+            alt="Stylist refining a client's haircut in natural light"
+            width="560"
+            height="700"
+            fetchpriority="high"
+          >
+          <div class="hero-card-float" aria-hidden="true">
+            <strong>4.9</strong>
+            <span>Average client rating across 2,400+ visits</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust metrics -->
+    <section class="trust-strip" aria-label="Studio highlights">
+      <div class="container trust-grid reveal">
+        <div class="trust-item">
+          <strong>12+</strong>
+          <span>Years refining craft</span>
+        </div>
+        <div class="trust-item">
+          <strong>38</strong>
+          <span>Specialist stylists</span>
+        </div>
+        <div class="trust-item">
+          <strong>96%</strong>
+          <span>Return within 90 days</span>
+        </div>
+        <div class="trust-item">
+          <strong>Zero</strong>
+          <span>Rush appointments</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Philosophy: asymmetric images + narrative -->
+    <section class="section philosophy" aria-labelledby="philosophy-heading">
+      <div class="container philosophy-layout">
+        <div class="philosophy-images reveal">
+          <img
+            class="philosophy-img-a"
+            src="images/hairstyle17.jpg"
+            alt="Senior stylist consulting with a client"
+            width="400"
+            height="533"
+            loading="lazy"
+          >
+          <img
+            class="philosophy-img-b"
+            src="images/hairstyle18.jpg"
+            alt="Detail of precision cutting technique"
+            width="280"
+            height="280"
+            loading="lazy"
+          >
+        </div>
+        <div class="philosophy-content reveal reveal-delay-1">
+          <p class="section-label">Our approach</p>
+          <h2 id="philosophy-heading" class="section-title">Hair should feel effortless after you leave the chair.</h2>
+          <p>
+            We begin with a structured consultation—texture, growth patterns, lifestyle, and maintenance tolerance—before any scissors or color touch your hair.
+          </p>
+          <ul class="feature-list">
+            <li>
+              <span class="feature-icon" aria-hidden="true">◎</span>
+              <div>
+                <strong>Tailored consultation</strong>
+                <span>45-minute session mapping cut geometry and color placement.</span>
+              </div>
+            </li>
+            <li>
+              <span class="feature-icon" aria-hidden="true">◇</span>
+              <div>
+                <strong>Clean product philosophy</strong>
+                <span>Performance formulas selected for scalp health and longevity.</span>
+              </div>
+            </li>
+            <li>
+              <span class="feature-icon" aria-hidden="true">△</span>
+              <div>
+                <strong>Aftercare clarity</strong>
+                <span>Simple routines you can repeat at home without guesswork.</span>
+              </div>
+            </li>
+          </ul>
+          <a href="about.html" class="btn btn-secondary" style="margin-top: 1.5rem;">Meet the studio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services: staggered card grid -->
+    <section class="section" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="services-header reveal">
+          <div>
+            <p class="section-label">What we offer</p>
+            <h2 id="services-heading" class="section-title">Services built around how you actually wear your hair.</h2>
+          </div>
+          <a href="hairstyle.html" class="btn btn-secondary">Full menu</a>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-card-image">
+              <img src="images/hairstyle19.jpg" alt="Precision cut and shape" width="400" height="300" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h3>Architectural cut</h3>
+              <p>Structured shapes with soft interior layers for movement and easy styling.</p>
+              <a href="contact.html" class="service-card-footer">
+                From $95
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="service-card reveal reveal-delay-1">
+            <div class="service-card-image">
+              <img src="images/hairstyle20.jpg" alt="Dimensional color application" width="400" height="300" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h3>Dimensional color</h3>
+              <p>Balayage, gloss, and root melts calibrated to your skin tone and upkeep.</p>
+              <a href="contact.html" class="service-card-footer">
+                From $180
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="service-card reveal reveal-delay-2">
+            <div class="service-card-image">
+              <img src="images/featured.jpg" alt="Restorative treatment" width="400" height="300" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h3>Restore &amp; shield</h3>
+              <p>Deep repair protocols for damaged lengths with bond-building technology.</p>
+              <a href="contact.html" class="service-card-footer">
+                From $65
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section process" aria-labelledby="process-heading">
+      <div class="container">
+        <p class="section-label reveal">Your visit</p>
+        <h2 id="process-heading" class="section-title reveal">Four clear steps. No surprises at checkout.</h2>
+        <p class="section-intro reveal">We designed the flow to respect your time while never cutting corners on the work.</p>
+
+        <div class="process-steps">
+          <div class="process-step reveal">
+            <div class="process-num">01</div>
+            <h3>Discover</h3>
+            <p>Share references, daily routine, and what has not worked before.</p>
+          </div>
+          <div class="process-step reveal reveal-delay-1">
+            <div class="process-num">02</div>
+            <h3>Design</h3>
+            <p>Your stylist maps shape, color, and product plan on paper first.</p>
+          </div>
+          <div class="process-step reveal reveal-delay-2">
+            <div class="process-num">03</div>
+            <h3>Create</h3>
+            <p>Focused session with transparent timing updates throughout.</p>
+          </div>
+          <div class="process-step reveal reveal-delay-3">
+            <div class="process-num">04</div>
+            <h3>Maintain</h3>
+            <p>Leave with a written aftercare guide and rebooking window.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery bento -->
+    <section class="section" aria-labelledby="gallery-heading">
+      <div class="container">
+        <p class="section-label reveal">Recent work</p>
+        <h2 id="gallery-heading" class="section-title reveal">Looks from the chair this season.</h2>
+
+        <div class="gallery-bento reveal">
+          <figure>
+            <img src="images/hairstyle5.jpg" alt="Soft layered bob with natural texture" width="600" height="460" loading="lazy">
+            <figcaption>Soft structure bob</figcaption>
+          </figure>
+          <figure>
+            <img src="images/hairstyle8.jpg" alt="Warm dimensional highlights" width="400" height="220" loading="lazy">
+            <figcaption>Warm dimension</figcaption>
+          </figure>
+          <figure>
+            <img src="images/hairstyle12.jpg" alt="Precision fringe detail" width="400" height="220" loading="lazy">
+            <figcaption>Fringe refinement</figcaption>
+          </figure>
+          <figure>
+            <img src="images/hairstyle3.jpg" alt="Long hair with face-framing layers" width="400" height="220" loading="lazy">
+            <figcaption>Face-frame layers</figcaption>
+          </figure>
+        </div>
+
+        <a href="hairstyle.html" class="btn btn-secondary reveal" style="margin-top: 2rem;">Explore full lookbook</a>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <p class="section-label reveal">Client voices</p>
+        <h2 id="testimonials-heading" class="section-title reveal">Trusted by people who care about the details.</h2>
+        <p class="section-intro reveal">Real feedback from guests who value clarity, craft, and a calm environment.</p>
+
+        <div class="testimonial-grid">
+          <article class="testimonial-card reveal">
+            <blockquote>
+              “Finally a salon that listens before cutting. My texture actually cooperates now—three months in and I still love the shape.”
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="images/hairstyle6.jpg" alt="" width="44" height="44" loading="lazy">
+              <div>
+                <strong>Elena R.</strong>
+                <span>Architectural cut client</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal reveal-delay-1">
+            <blockquote>
+              “The color plan was explained so clearly I knew exactly what upkeep to expect. No sticker shock, no rushed vibe.”
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="images/hairstyle9.jpg" alt="" width="44" height="44" loading="lazy">
+              <div>
+                <strong>Jordan M.</strong>
+                <span>Dimensional color client</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal reveal-delay-2">
+            <blockquote>
+              “Booking was seamless, the space feels intentional, and my stylist sent follow-up notes the next day. That level of care is rare.”
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="images/hairstyle11.jpg" alt="" width="44" height="44" loading="lazy">
+              <div>
+                <strong>Priya K.</strong>
+                <span>Restore treatment client</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-band" aria-labelledby="cta-heading">
+      <div class="container">
+        <div class="cta-inner reveal">
+          <div>
+            <h2 id="cta-heading">Ready for a look that fits your life?</h2>
+            <p>Reserve a consultation—most guests book two weeks ahead.</p>
+          </div>
+          <div class="cta-actions">
+            <a href="contact.html" class="btn btn-primary">Book your visit</a>
+            <a href="tel:+18000000000" class="btn btn-secondary">(800) 000-0000</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Lumen<span>.</span></a>
+          <p>Modern hair design studio focused on precision, transparency, and hair that works beyond appointment day.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">Studio</a>
+          <a href="hairstyle.html">Lookbook</a>
+          <a href="news.html">Journal</a>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="contact.html">Cuts &amp; shape</a>
+          <a href="contact.html">Color design</a>
+          <a href="contact.html">Treatments</a>
+          <a href="contact.html">Consultations</a>
+        </div>
+        <div class="footer-col">
+          <h4>Visit</h4>
+          <a href="contact.html">124 Mercer St</a>
+          <a href="mailto:hello@lumen.studio">hello@lumen.studio</a>
+          <a href="tel:+18000000000">(800) 000-0000</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Lumen Studio. All rights reserved.</p>
+        <div class="social-links" aria-label="Social media">
+          <a href="#" aria-label="Instagram">Ig</a>
+          <a href="#" aria-label="Pinterest">Pi</a>
+          <a href="#" aria-label="TikTok">Tk</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

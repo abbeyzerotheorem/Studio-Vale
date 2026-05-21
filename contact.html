@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Book a consultation or get in touch with Lumen Studio.">
+  <title>Contact — Lumen Studio</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="site-header is-scrolled" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Lumen<span>.</span></a>
+      <nav class="nav-desktop" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">Studio</a>
+        <a href="hairstyle.html">Lookbook</a>
+        <a href="news.html">Journal</a>
+        <a href="contact.html" class="is-active">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-primary">Book visit</a>
+        <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-mobile" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <nav id="nav-mobile" class="nav-mobile" aria-label="Mobile" aria-hidden="true">
+      <a href="index.html">Home</a>
+      <a href="about.html">Studio</a>
+      <a href="hairstyle.html">Lookbook</a>
+      <a href="news.html">Journal</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <header class="page-hero">
+      <div class="container reveal is-visible">
+        <p class="section-label">Get in touch</p>
+        <h1>Book your next visit.</h1>
+        <p>Tell us what you are looking for—we respond to most inquiries within two hours during studio hours.</p>
+      </div>
+    </header>
+
+    <section class="page-content">
+      <div class="container contact-grid">
+        <dl class="contact-info reveal">
+          <div>
+            <dt>Studio address</dt>
+            <dd>124 Mercer St, New York, NY 10012</dd>
+          </div>
+          <div>
+            <dt>Phone</dt>
+            <dd><a href="tel:+18000000000">(800) 000-0000</a></dd>
+          </div>
+          <div>
+            <dt>Email</dt>
+            <dd><a href="mailto:hello@lumen.studio">hello@lumen.studio</a></dd>
+          </div>
+          <div>
+            <dt>Hours</dt>
+            <dd>Tuesday–Saturday · 9:00am–7:00pm</dd>
+          </div>
+        </dl>
+
+        <form class="contact-form reveal reveal-delay-1" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+          <div class="form-group">
+            <label for="service">Service interest</label>
+            <select id="service" name="service">
+              <option value="cut">Architectural cut</option>
+              <option value="color">Dimensional color</option>
+              <option value="treatment">Restore &amp; shield</option>
+              <option value="consult">Consultation only</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Notes for your stylist</label>
+            <textarea id="message" name="message" placeholder="Share goals, reference links, or scheduling preferences."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send request</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-bottom" style="border: none; padding-top: 0;">
+        <p>&copy; 2026 Lumen Studio. All rights reserved.</p>
+        <a href="index.html" class="btn btn-secondary">Back to home</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
