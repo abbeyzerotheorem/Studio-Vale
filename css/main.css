@@ -81,6 +81,8 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+  /* Ensures consistent crop focus across all image cards */
+  object-position: top center;
 }
 
 a {
@@ -427,7 +429,7 @@ p:last-child {
   aspect-ratio: 4 / 5;
   object-fit: cover;
   width: 85%;
-  margin-left: auto;
+  margin: 0 auto;
 }
 
 .hero-card-float {
@@ -865,7 +867,7 @@ p:last-child {
   justify-content: space-between;
   gap: var(--space-lg);
   padding: var(--space-2xl);
-  background: linear-gradient(135deg, var(--color-accent) 0%, #4a5d4c 100%);
+  background: #000000;
   border-radius: var(--radius-xl);
   color: var(--color-surface);
   position: relative;
